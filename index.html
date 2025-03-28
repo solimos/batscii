@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batscii - $BATSCII</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #F6DF03;
+            text-align: center;
+            font-family: monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image-placeholder {
+            width: 300px;
+            height: 300px;
+            background-color: #444;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .image-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .ascii-art {
+            font-size: 12px;
+            white-space: pre;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .quote {
+            max-width: 500px;
+            margin: 10px auto;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-placeholder">
+            <img src="./batscii.png" alt="Batscii Logo" />
+        </div>
+        <div class="ascii-art">
+            <pre>
+        _==/          i     i          \==_
+      /XX/            |\-"""-/|            \XX\
+    /XXXX\            |       |            /XXXX\
+   |XXXXXX\_         _|       |_         _/XXXXXX|
+  XXXXXXXXXXXxxxxxxxXXXXXXXXXXXxxxxxxxXXXXXXXXXXX
+ |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+|XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX|
+  XXXXXX/#####\XXXXXXXXXXXXX/#####\XXXXXX
+    |XX/       \XXX/       \XX|
+      |__     __| |__     __|
+      (__)   (__) (__)   (__)
+      </pre>
+        </div>
+        <h1>$BATSCII - The Dark Hustler</h1>
+        <p class="quote">"Fear? I am the fear. Failure? I rise again." - Batscii</p>
+        <p class="quote">"You don't need superpowers to win. You need discipline."</p>
+        <p class="quote">"They laugh now... but they won’t when you're unstoppable."</p>
+    </div>
+</body>
+
+</html>
